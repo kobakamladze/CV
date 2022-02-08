@@ -1,0 +1,129 @@
+body {
+	background-color: #f1f2f6;
+	font-family: 'Dongle', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.div_title {
+	font-size: 40px;
+	font-weight: 600;
+	text-transform: capitalize;
+	color: #2d3436;
+}
+
+.div_info {
+	font-size: 20px;
+	letter-spacing: 1px;
+	max-width: 900px;
+	line-height: 24px;
+}
+
+// container
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+// header
+header {
+	display: flex;
+	padding: 20px 10px 20px 130px;
+	background-color: #2c3e50;
+}
+.header__photo {
+	margin: 0 100px 0 0;
+	.header__photo-image {
+		height: 120px;
+		width: 120px;
+		border: 2px solid #7f8c8d;
+		border-radius: 50%;
+		background: url("../images/profile.png") 4px 1px no-repeat;
+		background-size: 110px;
+		background-color: #DDDEDDFF;
+	}
+}
+.header__title {
+	margin: 5px 0 20px 0;
+	a {
+		font-size: 45px;
+		font-weight: 600;
+		color: #ecf0f1;
+	}
+}
+.header__profession {
+	a {
+		font-size: 35px;
+		font-weight: 500;
+		color: #ecf0f1;
+		opacity: 0.8;
+	}
+}
+
+.header__contact-info {
+	padding: 16px 0 0 0;
+	margin: 0 0 0 720px; 
+	p {
+		margin: 12px 0;
+		a {
+			color: #dfe6e9;
+			font-size: 15px;
+			letter-spacing: 1px;
+		}
+		.link:hover {
+			text-decoration: underline;
+		}
+	}
+}
+
+// main
+main {}
+
+// about me
+.about-me {
+	padding: 20px 0;
+}
+.about-me__title {
+	margin: 35px 0 30px 0;
+}
+
+// skills
+.skills {
+	padding: 10px 0;
+}
+.skills__title {
+	margin: 10px 0 30px 0;
+}
+.skills__text {
+	p {
+		margin: 10px 0;
+	}
+	.subtitle {
+		font-weight: 600;
+		font-size: 22px;
+		margin: 32px 0 0 0;
+	}
+	ul {
+		margin: 30px 0 0 0;
+		li {
+			list-style: inside;
+			margin: 10px 0;
+			a {
+				font-size: 20px;
+				letter-spacing: 1px;
+			}
+		}
+	}
+}
+
+// works
+.works {
+	padding: 10px 0;
+	p {
+		margin: 8px 0;
+		a {
+		}
+	}
+}
+.works__title {
+	margin: 0 0 40px 0;
+}
