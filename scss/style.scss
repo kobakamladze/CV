@@ -22,16 +22,21 @@ body {
 .container {
 	max-width: 1200px;
 	margin: 0 auto;
+	padding: 0 15px;
 }
 
 // header
 header {
 	display: flex;
-	padding: 20px 10px 20px 130px;
+	justify-content: space-around;
+	padding: 20px 15px;
 	background-color: #2c3e50;
+	.header__left {
+		display: flex;
+	}
 }
 .header__photo {
-	margin: 0 100px 0 0;
+	margin: 0 60px 0 0;
 	.header__photo-image {
 		height: 120px;
 		width: 120px;
@@ -61,7 +66,6 @@ header {
 
 .header__contact-info {
 	padding: 16px 0 0 0;
-	margin: 0 0 0 720px; 
 	p {
 		margin: 12px 0;
 		a {
